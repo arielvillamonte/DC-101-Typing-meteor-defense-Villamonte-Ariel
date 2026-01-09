@@ -15,8 +15,8 @@ A simple browser-based typing game where players must type falling words before 
 4. Lose a life if a word reaches the bottom
 5. Game ends when lives reach zero
 
-## Live Demo
-(Optional) Enable GitHub Pages to play online.
+
 
 ## Author
+
 Ariel Villamonte
