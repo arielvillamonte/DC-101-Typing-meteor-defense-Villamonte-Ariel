@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #0b1020;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: #11172f;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: #1a2040;
+}
+
+.game-area {
+    position: relative;
+    height: 300px;
+    border: 2px solid #444;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.meteor {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: crimson;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.controls {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .game-area {
+        height: 250px;
+    }
+}
